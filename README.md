@@ -31,7 +31,7 @@ This script simplifies the process of activating WinRAR by automating the activa
 - **Administrative Privileges**: If the script does not prompt for administrative rights, ensure you are running it with the required permissions by right-clicking and selecting Run as Administrator.
 - **File Paths**: Verify that the encoded_rarreg_key.txt and encoded_ascii_art.txt files are correctly placed in the src directory.
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
