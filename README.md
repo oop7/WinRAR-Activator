@@ -40,4 +40,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to Muhammad Saim for providing the `rarreg.key` file via his GitHub project, which was instrumental in this script's functionality.
 
 ## ❓ Contact
+
 For questions or support, please open an issue on the GitHub repository.
