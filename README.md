@@ -9,10 +9,21 @@ This script simplifies the process of activating WinRAR by automating the activa
 - File Operations: Copies necessary files to the WinRAR installation directory.
 - Interactive: Provides a simple menu for user interaction and options.
 
- ## 🛠️ Installation
-
-1. Download: Obtain the latest version of the tool from the releases page.
+ ## 🛠️ **Installation**
+### **Method 1**
+1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/oop7/WinRAR-Activator/releases).
 2. Extract: Unzip the downloaded file to a directory of your choice.
+
+### **Method 2**
+1. **Open PowerShell as Administrator**:
+   - Right-click the Start menu and select **Windows PowerShell (Admin)** or **Windows Terminal (Admin)**.
+   - If prompted by User Account Control (UAC), click **Yes** to allow PowerShell to run with administrative privileges.
+
+2. Run the following command in PowerShell to download and execute the activation script:
+
+   ```powershell
+   irm https://github.com/oop7/WinRAR-Activator/releases/download/v1.1/v1.1.zip -OutFile v1.1.zip; Expand-Archive v1.1.zip -DestinationPath . -Force; cmd.exe /c .\v1.1\script.bat
+   ```
 
 ## 💻 Usage
 
@@ -29,7 +40,7 @@ This script simplifies the process of activating WinRAR by automating the activa
 ## ✅ Troubleshooting
 
 - **Administrative Privileges**: If the script does not prompt for administrative rights, ensure you are running it with the required permissions by right-clicking and selecting Run as Administrator.
-- **File Paths**: Verify that the encoded_rarreg_key.txt and encoded_ascii_art.txt files are correctly placed in the src directory.
+- **File Paths**: Verify that the encoded.txt and ASCII_art.txt files are correctly placed in the src directory.
 
 ## 📜 License
 
